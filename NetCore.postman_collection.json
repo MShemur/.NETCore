@@ -1,0 +1,723 @@
+{
+	"info": {
+		"_postman_id": "12233d36-0fe0-48c8-b747-2b0b4a73c88e",
+		"name": "FoxMinded",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:57752/api/transactions",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/transactions/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"transactions",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/transactions/monthly",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/transactions/monthly",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"transactions",
+						"monthly"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/transactions/today",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/transactions/today",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"transactions",
+						"today"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/transactions/id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:57752/api/transactions/da2fd609-d754-4feb-8acd-c4f9ff13ba96",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"transactions",
+						"da2fd609-d754-4feb-8acd-c4f9ff13ba96"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/transactions/income",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/transactions/income",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"transactions",
+						"income"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/transactions/outcome",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/transactions/outcome",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"transactions",
+						"outcome"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/transactions/income",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"DateTime\" : \"2019-11-20T19:00:00\",\n\t\"TransactionSum\" : 8000,\n\t\"Comment\" : \"Halowween bonus\",\n\t\"CategoryId\": \"2aadd2df-7caf-45ab-9355-7f6332985a87\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/transactions/income",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"transactions",
+						"income"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/transactions/outcome",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"DateTime\" : \"2019-11-24T19:00:00\",\n\t\"TransactionSum\" : -10,\n\t\"Comment\" : \"Socks\",\n\t\"CategoryId\": \"5b1c2b4d-48c7-402a-80c3-cc796ad49c6b\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/transactions/outcome",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"transactions",
+						"outcome"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/transactions/id",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"DateTime\" : \"2019-11-24T19:00:00\",\n\t\"TransactionSum\" : -15,\n\t\"Comment\" : \"bought shooses corrected\",\n\t\"CategoryId\": \"5b1c2b4d-48c7-402a-80c3-cc796ad49c6b\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/transactions/2902b665-1190-4c70-9915-b9c2d7680450",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"transactions",
+						"2902b665-1190-4c70-9915-b9c2d7680450"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/transactions/id",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"DateTime\" : \"2019-11-24T19:00:00\",\n\t\"TransactionSum\" : -15,\n\t\"Comment\" : \"bought shooses corrected\",\n\t\"CategoryId\": \"5b1c2b4d-48c7-402a-80c3-cc796ad49c6b\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/transactions/2902b665-1190-4c70-9915-b9c2d7680450",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"transactions",
+						"2902b665-1190-4c70-9915-b9c2d7680450"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/categories",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:57752/api/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/categories/id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:57752/api/categories/5b3621c0-7b12-4e80-9c8b-3398cba7ee05",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"categories",
+						"5b3621c0-7b12-4e80-9c8b-3398cba7ee05"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/categories/income",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:57752/api/categories/income",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"categories",
+						"income"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/categories/outcome",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:57752/api/categories/outcome",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"categories",
+						"outcome"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/categories/income",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/xml",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\" : \"Robbery\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/categories/income",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"categories",
+						"income"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/categories/outcome",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\" : \"Donation\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/categories/outcome",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"categories",
+						"outcome"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/categories/id",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\" : \"Salary corrected\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/categories/5b3621c0-7b12-4e80-9c8b-3398cba7ee05",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"categories",
+						"5b3621c0-7b12-4e80-9c8b-3398cba7ee05"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:57752/api/categories/id",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\" : \"Salary corrected\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57752/api/categories/5b3621c0-7b12-4e80-9c8b-3398cba7ee05",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57752",
+					"path": [
+						"api",
+						"categories",
+						"5b3621c0-7b12-4e80-9c8b-3398cba7ee05"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
